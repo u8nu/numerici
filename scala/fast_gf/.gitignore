@@ -1,0 +1,20 @@
+# sbt
+/target
+/project/target
+/project/project/target
+/*/target
+
+# eclipse
+/.project
+/.classpath
+/.cache
+/.settings
+
+# idea
+/.idea
+/.idea_modules
+*.iml
+/projectFilesBackup
+
+# log files created when jvm crashes
+/hs_err_pid*.log
