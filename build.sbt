@@ -86,4 +86,4 @@ lazy val settings = Seq(
     "-Xcheckinit",
     "-Xlint")) ++ scalariformSettings ++ releaseSettings ++ macroParadiseSettings
 
-lazy val unnamed = (project in file(".")).settings(settings: _*)
+lazy val `numerici-fast_gf` = (project in file(".")).settings(settings: _*)
